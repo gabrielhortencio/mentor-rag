@@ -1,4 +1,5 @@
-import { OpenAIEmbeddings } from "langchain/embeddings/openai";
+import { OpenAIEmbeddings } from "@langchain/openai";
+
 
 export const embedText = async (text) => {
   const embeddings = new OpenAIEmbeddings({
